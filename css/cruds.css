@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.crud {
+    width: 70%;
+    margin: auto;
+}
+
+.crud .header {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.crud .header h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+input {
+    height: 30px;
+    width: 100%;
+
+    border: 2px solid #8b038b;
+    border-radius: 10px;
+    padding: 10px 25px;
+    background: transparent;
+    margin: 7px;
+    transition: .3s;
+    color: white;
+
+}
+
+.input:focus {
+    background-color: #111;
+    transform: scale(1.03);
+}
+
+.input:active {
+    box-shadow: 2px 2px 15px #bcb2c5a4 inset;
+}
+
+.input:hover {
+    box-shadow: 2px 2px 15px #bcb2c5a4 inset;
+}
+
+.price .input {
+    width: 15%;
+}
+
+.price .total {
+    background-color: #470047;
+    padding: 7px 5px;
+    border-radius: 3%;
+}
+
+.price .total::before {
+    content: "Total : ";
+    padding: 4px 2px;
+}
+
+button {
+    width: 20%;
+    border: #8b038b 1px solid;
+    cursor: pointer;
+    background-color: #470047;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 7px;
+    border: #8b038b 1px solid;
+    transition: .3s;
+}
+
+button:hover {
+    text-align: center;
+    background-color: #8b038b;
+    letter-spacing: 1.2px;
+    box-shadow: 2px 2px 15px #bcb2c5a4 inset;
+}
+
+#deleteAll {
+    width: 30%;
+}
+
+#deleteAll button {
+    border: #8b038b 1px solid;
+    width: 100%;
+    cursor: pointer;
+    background-color: #470047;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px;
+    margin: 7px;
+    transition: .3s;
+}
+
+#deleteAll button:hover {
+
+    text-align: center;
+    background-color: #8b038b;
+    letter-spacing: 1.2px;
+    box-shadow: 2px 2px 15px #bcb2c5a4 inset;
+}
+
+.searchBlock .btnSearch {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    margin-left: 50px;
+}
+
+.searchBlock .btnSearch button {
+    margin-bottom: 20px;
+}
+
+
+table {
+    border: #8b038b 1px solid;
+    margin-top: 20px;
+    margin-left: 35px;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    transition: .3s;
+    background-color: #470047;
+}
+
+table:hover {
+    background-color: #8b038b;
+    transform: scale(1.02);
+}
+
+
+
+
+table tbody #update,
+#delete {
+    width: 90%;
+    letter-spacing: 1px;
+
+}
